@@ -30,9 +30,12 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+gem 'rack-cors', :require => 'rack/cors'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'spree', '~> 3.7.0'
+gem 'spree_auth_devise', '~> 3.5'
+gem 'spree_gateway', '~> 3.4'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
